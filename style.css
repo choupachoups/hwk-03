@@ -53,3 +53,55 @@ sub {
   padding: 3px 10px 10px 10px;
   margin: 10px 10px 10px 0;
 }
+
+.activity16 .item1:before {
+  content: "\2660";
+}
+
+.activity16 .item2:before {
+  content: "\2663";
+}
+
+.activity16 .item3:before {
+  content: "\2665";
+  color: red;
+}
+
+.activity16 .item4:before {
+  content: "\2666";
+  color: red;
+}
+
+.activity17 sub {
+  font-size: 16px;
+  color: blue;
+  font-style: normal;
+}
+
+.activity17 sup {
+  font-size: 16px;
+  color: red;
+  font-style: normal;
+}
+
+.activity17 p {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.activity22 h1 {
+  background: #569099;
+  padding: 10px;
+  color: #fff;
+  margin: 0;
+}
+
+.activity22 p {
+  background: #cad8d0;
+  padding: 10px;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
