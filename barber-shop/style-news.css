@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: 'PT Sans Narrow','Arial', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #000;
+/*  letter-spacing: -1px;*/
+}
+
+button, input {
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  background-color: #000;
+  height: 70px;
+}
+
+.main-nav {
+  margin: -21px 15vw;
+}
+
+.menu-item {
+  text-transform: uppercase;
+  margin-right: 4px;
+  padding: 25.5px 0;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 25.5px 15px;
+}
+
+.main-nav, .sign-in, .menu-items, .menu-item, .main-menu {
+  display: inline-block;
+}
+
+.menu-item:hover {
+  background-color: #313131;
+}
+
+.menu-item-logo {
+  height: 8vh;
+}
+
+/*.active-menu-item {
+
+}*/
+
+.sign-in-button {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+  padding: 25.5px 15px;
+  text-transform: uppercase;
+  border: 0px;
+}
+
+.sign-in {
+  margin-left: 2%;
+}
+
+.sign-in-button:hover {
+  background-color: #313131;
+}
+
+.sign-in-button::before { 
+  content: url(img/icon-login.png);
+  opacity: 0.5;
+}
+
+.sign-in-button:hover::before { 
+  opacity: 1;
+}
+
+/*end of header. start of main*/
+
+main {
+  background-image: url(img/pattern-white.jpg);
+  display: inline-block;
+}
+
+.news-wrapper {
+  padding: 7vh 15vw;
+}
+
+.news-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.breadcrumbs a, .breadcrumbs .second-item {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.breadcrumbs a {
+  color: #000;
+}
+
+.breadcrumbs .second-item {
+  color: lightgrey;
+}
+
+.breadcrumbs .second-item:before {
+  content: url(img/romb1.png);
+  padding: 0 10px;
+}
+
+.breadcrumbs a:hover, .breadcrumbs .second-item:hover {
+  text-decoration: underline;
+}
+
+.top-news-title {
+  z-index: 1;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  background: url(img/pattern-white.jpg);
+}
+
+.top-news-title::after {
+  z-index: 0;
+  content: '';
+  display: block;
+  border-bottom: 2px solid #000;
+}
+
+.top-news-heading {
+  font-size: 20px;
+  margin: 0;
+}
+
+.top-news-date{
+  color: lightgrey;
+  margin: 0 0 0 94%;
+  line-height: 2px;
+  padding-bottom: 10px;
+}
+
+.top-news-items {
+  border-bottom: 2px solid lightgrey;
+  margin-bottom: 30px;
+}
+
+
+
+/*тут заканчивается main и начинается footer */
+
+footer {
+  background: url(img/pattern-black.jpg);
+}
+
+.contact-wrapper {
+  padding: 30px 20vh;
+  color: #fff;
+}
+
+.contact-info, .contact-social, .contact-auth {
+  display: inline-block;
+  width: 160px;
+  margin: 0 80px;
+}
+
+.contact-button {
+  border: 0;
+  background-color: rgba(255,255,255,0);
+  color: #fff;
+  text-decoration: underline;
+  padding: 0;
+  margin: -16px 0;
+  font-size: 14px;
+}
+
+.contact-info {
+  line-height: 7.5px;
+}
+
+.contact-social-item {
+  font-size: 0px;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-social-description, .contact-info, .contact-auth-description, .contact-auth-link {
+  font-size: 14px;
+}
+
+.contact-social-link {
+  width: 50px;
+  height: 50px;
+}
+
+.contact-social-item1:hover, .contact-social-item2:hover, .contact-social-item3:hover {
+  background-color: #307895;
+}
+
+.contact-social-item1 {
+  background-image: url(img/v.png);
+}
+
+.contact-social-item2 {
+  background-image: url(img/f.png);
+}
+
+.contact-social-item3 {
+  background-image: url(img/inst.png);
+}
+
+.contact-social-item1, .contact-social-item2, .contact-social-item3 {
+  background-color: #000;
+}
+
+.contact-auth-link
+{
+  display: inline-block;
+  background-color: #000;
+  padding: 10px 5px;
+}
+
+.contact-auth a {
+  color: #fff;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.contact-auth a:hover, .contact-auth-link:hover, .send-button:hover, .news-button-link:hover, .way-button:hover {
+  background-color: #663d15;
+}
+
+
